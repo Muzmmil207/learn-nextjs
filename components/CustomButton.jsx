@@ -1,12 +1,8 @@
-const CustomButton = ({ title, containerStyles, handleClick, btnType }) => {
+const CustomButton = ({ title, containerStyles, url }) => {
   return (
-    <button
-      disabled={false}
-      type={btnType || "button"}
-      className={`custom-btn ${containerStyles}`}
-      onClick={handleClick}>
+    <a href={url} className={`custom-btn ${containerStyles}`}>
       <span className={`flex-1`}>{title}</span>
-    </button>
+    </a>
   );
 };
 

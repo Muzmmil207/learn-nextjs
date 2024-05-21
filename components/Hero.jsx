@@ -1,3 +1,5 @@
+import { CustomButton } from ".";
+
 const Hero = () => {
   return (
     <div className="masthead max-h-[100vh] h-screen">
@@ -7,11 +9,9 @@ const Hero = () => {
             Your Favorite Place for <br />
             Free Bootstrap Themes
           </h1>
-          <span></span>
-          <p>
-            Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and
-            start customizing, no strings attached!
-          </p>
+          <span className="bg-orangeRed h-1 w-16 my-7"></span>
+          <p className="max-w-[800px] w-full text-center text-white font-normal">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
+          <CustomButton title="find out more" containerStyles="bg-orangeRed my-7" url="#about" />
         </div>
       </div>
     </div>
