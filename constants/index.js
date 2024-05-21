@@ -1,6 +1,6 @@
 export const headerLinks = [
-  { title: "About", url: "#About" },
-  { title: "Services", url: "#Services" },
-  { title: "Portfolio", url: "#Portfolio" },
-  { title: "Contact", url: "#Contact" },
+  { title: "About", url: "#about" },
+  { title: "Services", url: "#services" },
+  { title: "Portfolio", url: "#portfolio" },
+  { title: "Contact", url: "#contact" },
 ];

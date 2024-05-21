@@ -11,9 +11,14 @@
 }
 
 .masthead {
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(/assets/img/bg-masthead.jpg);
+  background: linear-gradient(
+      to bottom,
+      rgba(92, 77, 66, 0.8) 0%,
+      rgba(92, 77, 66, 0.8) 100%
+    ),
+    url(/assets/img/bg-masthead.jpg);
 }
 
 .custom-btn {
-  @apply py-6 px-9 rounded-full uppercase text-white text-base font-medium;
+  @apply py-6 px-9 rounded-full uppercase text-base font-medium;
 }
