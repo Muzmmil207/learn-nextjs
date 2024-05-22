@@ -1,18 +1,7 @@
-import { About, Contact, Footer, Hero, Navbar, Services } from "@/components";
-
 export default function Home() {
   return (
-    <main className="relative">
-      <Navbar />
-      <section>
-        <Hero />
-      </section>
-      <About />
-      <section className="section w-full">
-        <Services />
-      </section>
-      <Contact />
-      <Footer />
+    <main>
+      <h1 className="font-black text-4xl">He</h1>
     </main>
   );
 }
