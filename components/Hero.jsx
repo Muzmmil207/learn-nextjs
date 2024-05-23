@@ -2,7 +2,7 @@ import { CustomButton } from ".";
 
 const Hero = () => {
   return (
-    <div className="masthead max-h-[100vh] h-screen">
+    <div className="masthead max-h-[100vh] h-screen" id="page-top">
       <div className="flex flex-col items-center justify-center h-full">
         <h1 className="md:text-[124px] text-[48px] text-gray-900         font-bold">
           Stylish Portfolio
