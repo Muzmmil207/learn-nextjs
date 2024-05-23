@@ -3,7 +3,7 @@ import { services } from "@/constants";
 function Services() {
   return (
     <div className="bg-primary-rgb" id="services">
-      <div className="px-4 py-20 max-w-[1100px] w-full m-auto">
+      <div className="px-4 py-28 max-w-[1200px] w-full m-auto">
         <div className="text-center">
           <h1 className="font-bold text-[rgba(236,184,7,1)] text-lg">
             SERVICES

@@ -2,7 +2,7 @@ import { CustomButton } from ".";
 
 function About() {
   return (
-    <section className="px-4 py-20 max-w-[1100px] w-full m-auto" id="about">
+    <section className="px-4 py-28 max-w-[1100px] w-full m-auto" id="about">
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-[44px] text-center text-gray-900 font-bold leading-tight">
           Stylish Portfolio is the perfect theme for your next project!
