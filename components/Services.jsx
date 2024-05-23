@@ -1,42 +1,32 @@
+import { services } from "@/constants";
+
 function Services() {
   return (
-    <div className="" id="services">
-      <div className="flex flex-col items-center justify-center h-full py-16">
-        <h1 className="text-[38px] text-gray-900 font-bold">At Your Service</h1>
-        <span className="bg-orangeRed h-1 w-16 my-7"></span>
-        <div className="flex gap-3 justify-center flex-wrap mt-9">
-          <div className="max-w-[300px] w-full text-center">
-            <h3 className="text-gray-900 text-[24px] font-semibold leading-8">
-              Sturdy Themes
-            </h3>
-            <p className="text-gray-600">
-              Our themes are updated regularly to keep them bug free!
-            </p>
-          </div>
-          <div className="max-w-[300px] w-full text-center">
-            <h3 className="text-gray-900 text-[24px] font-semibold leading-8">
-              Up to Date
-            </h3>
-            <p className="text-gray-600">
-              All dependencies are kept current to keep things fresh.
-            </p>
-          </div>
-          <div className="max-w-[300px] w-full text-center">
-            <h3 className="text-gray-900 text-[24px] font-semibold leading-8">
-              Ready to Publish
-            </h3>
-            <p className="text-gray-600">
-              You can use this design as is, or you can make changes!
-            </p>
-          </div>
-          <div className="max-w-[300px] w-full text-center">
-            <h3 className="text-gray-900 text-[24px] font-semibold leading-8">
-              Made with Love
-            </h3>
-            <p className="text-gray-600">
-              Is it really open source if it's not made with love?
-            </p>
-          </div>
+    <div className="bg-primary-rgb" id="services">
+      <div className="px-4 py-20 max-w-[1100px] w-full m-auto">
+        <div className="text-center">
+          <h1 className="font-bold text-[rgba(236,184,7,1)] text-lg">
+            SERVICES
+          </h1>
+          <p className="font-bold text-5xl text-white">What We Offer</p>
+        </div>
+        <div className="flex flex-wrap gap-8 mt-10">
+          {services.map((service) => (
+            <div
+              className="flex flex-col items-center flex-1"
+              key={service.title}>
+              <span className="flex items-center justify-center w-[150px] h-[150px] rounded-full shadow bg-white">
+                <i
+                  className={`${service.icon} text-primary-rgb text-4xl font-bold `}></i>
+              </span>
+              <div className="mt-4 text-center">
+                <h4 className="text-white text-2xl font-bold">
+                  {service.title}
+                </h4>
+                <p className="text-gray-300">{service.content}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
