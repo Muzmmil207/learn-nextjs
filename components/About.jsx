@@ -2,21 +2,24 @@ import { CustomButton } from ".";
 
 function About() {
   return (
-    <section className="bg-orangeRed" id="about">
-      <div className="flex flex-col items-center justify-center h-full py-16">
-        <h1 className="text-[38px] text-white font-bold">
-          We've got what you need!
+    <section className="px-4 py-20 max-w-[1100px] w-full m-auto" id="about">
+      <div className="flex flex-col items-center justify-center">
+        <h1 className="text-[44px] text-center text-gray-900 font-bold leading-tight">
+          Stylish Portfolio is the perfect theme for your next project!
         </h1>
-        <span className="bg-white h-1 w-16 my-7"></span>
-        <p className="max-w-[800px] w-full text-center text-gray-600 font-normal">
-          Start Bootstrap has everything you need to get your new website up and
-          running in no time! Choose one of our open source, free to download,
-          and easy to use themes! No strings attached!
+        <p className="text-center text-gray-900 font-normal leading-tight text-lg mt-4">
+          Stylish Portfolio is the perfect theme for your next project! This
+          theme features a flexible, UX friendly sidebar menu and stock photos
+          from our friends at
+          <a href="#" className="text-blue-400">
+            Unsplash
+          </a>
+          !
         </p>
 
         <CustomButton
-          title="get started"
-          containerStyles="bg-white text-black my-7"
+          title="what we offer"
+          containerStyles="bg-gray-800 text-white my-7"
           url="#services"
         />
       </div>
