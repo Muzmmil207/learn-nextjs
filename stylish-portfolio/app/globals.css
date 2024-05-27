@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.masthead {
+  background-image: url(/assets/img/bg-masthead.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.masthead2 {
+  background-image: url(/assets/img/bg-callout.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.custom-btn {
+  @apply py-6 px-9 rounded-lg capitalize text-lg hover:opacity-90 transition;
+}
