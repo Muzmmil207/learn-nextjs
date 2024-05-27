@@ -10,7 +10,7 @@ function Navbar() {
   };
   return (
     <header className="bg-grayish py-4 fixed top-0 left-0 ring-0 w-full">
-      <nav className="section-container">
+      <nav className="header-container">
         <div className="flex justify-between items-center">
           <div className="">
             <Image src={logo} width={150} height={68} alt="logo" />
