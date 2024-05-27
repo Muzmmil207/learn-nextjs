@@ -15,14 +15,14 @@
 }
 
 .masthead {
-  background-image: url(/assets/img/bg-masthead.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  @apply h-screen w-full;
 }
-.masthead2 {
-  background-image: url(/assets/img/bg-callout.jpg);
+
+.masthead {
+  background-image: url(/assets/img/slider-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .custom-btn {

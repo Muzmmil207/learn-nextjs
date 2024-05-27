@@ -1,10 +1,17 @@
-import { About, CustomButton, Footer, Hero, Services } from "@/components";
-import Navbar from "@/components/Navbar";
+import {
+  About,
+  CustomButton,
+  Footer,
+  Hero,
+  Services,
+  Navbar,
+} from "@/components";
 
 export default function Home() {
   return (
     <main className="relative">
       <Navbar />
+      <Hero />
     </main>
   );
 }
