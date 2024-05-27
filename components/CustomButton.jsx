@@ -1,9 +1,9 @@
-const CustomButton = ({ title, containerStyles, url }) => {
-  return (
-    <a href={url} className={`custom-btn ${containerStyles}`}>
-      <span className={`flex-1`}>{title}</span>
-    </a>
-  );
-};
+import React from 'react'
 
-export default CustomButton;
+function CustomButton() {
+  return (
+    <div>CustomButton</div>
+  )
+}
+
+export default CustomButton
