@@ -1,5 +1,5 @@
 import "./globals.css";
-import "../public/assets/font-awesome/css/font-awesome.min.css";
+import "@/assets/font-awesome/css/font-awesome.min.css";
 
 export const metadata = {
   title: "Learn NEXT.JS",
@@ -9,10 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

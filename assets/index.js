@@ -1,3 +1,2 @@
-import menu from "./menu.svg";
-import close from "./close.svg";
-export { menu, close };
+import logo from "./img/logo.png";
+export { logo };

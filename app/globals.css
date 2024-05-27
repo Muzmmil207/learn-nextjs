@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+.section-container {
+  @apply container m-auto px-8 lg:px-28;
+}
+
+.nav-link {
+  @apply text-gray-300 text-[18px] uppercase font-medium block hover:text-white;
+}
+
+.icon-bar {
+  @apply bg-white h-1 w-6;
+}
+
 .masthead {
   background-image: url(/assets/img/bg-masthead.jpg);
   background-repeat: no-repeat;
