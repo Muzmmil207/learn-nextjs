@@ -25,6 +25,33 @@ export const aboutContent = [
   },
 ];
 
+export const servicesContent = [
+  {
+    title: "App Development",
+    icon: "fa fa-mobile",
+    description:
+      "Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.",
+  },
+  {
+    title: "Ui Design",
+    icon: "fa fa-pie-chart",
+    description:
+      "Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.",
+  },
+  {
+    title: "Cloud Hosting",
+    icon: "fa fa-cloud",
+    description:
+      "Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.",
+  },
+  {
+    title: "Coding Pen",
+    icon: "fa fa-pencil",
+    description:
+      "Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.",
+  },
+];
+
 export const ourSkillsContent = [
   { skillTitle: "Photoshop & Illustrator", skillPercent: 80 },
   { skillTitle: "WordPress", skillPercent: 50 },

@@ -58,6 +58,7 @@ export default function Home() {
           </div>
         </section>
       </div>
+      <Services />
     </main>
   );
 }
