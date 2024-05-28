@@ -19,6 +19,7 @@ import FunFacts from "@/components/FunFacts";
 import OurTeam from "@/components/OurTeam";
 import OurPartners from "@/components/OurPartners";
 import Prices from "@/components/Prices";
+import JoinUs from "@/components/JoinUs";
 
 export default function Home() {
   return (
@@ -74,6 +75,7 @@ export default function Home() {
       <FunFacts />
       <OurTeam />
       <Prices />
+      <JoinUs />
     </main>
   );
 }

@@ -147,3 +147,12 @@ export const pricesContent = [
     ],
   },
 ];
+
+export const joinUsContent = [
+  "fa fa-facebook",
+  "fa fa-twitter",
+  "fa fa-google-plus",
+  "fa fa-pinterest-p",
+  "fa fa-tumblr",
+  "fa fa-dribbble",
+];
