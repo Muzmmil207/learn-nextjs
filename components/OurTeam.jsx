@@ -3,7 +3,7 @@ import SectionTitle from "@/components/SectionTitle";
 
 function OurTeam() {
   return (
-    <section className="section-container">
+    <section id="team-section" className="section-container">
       <SectionTitle title={"OUR TEAM"} description={"Meat our experts"} />
       <div className="flex justify-center w-full">
         <div className="flex flex-wrap justify-center gap-20 max-w-[1000px] w-full">

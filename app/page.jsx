@@ -18,6 +18,7 @@ import Navbar from "@/components/Navbar";
 import FunFacts from "@/components/FunFacts";
 import OurTeam from "@/components/OurTeam";
 import OurPartners from "@/components/OurPartners";
+import Prices from "@/components/Prices";
 
 export default function Home() {
   return (
@@ -72,7 +73,7 @@ export default function Home() {
       <Services />
       <FunFacts />
       <OurTeam />
-      <OurPartners />
+      <Prices />
     </main>
   );
 }

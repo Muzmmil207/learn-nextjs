@@ -96,3 +96,54 @@ export const ourTeamContent = [
     icon: "fa fa-female",
   },
 ];
+
+export const pricesContent = [
+  {
+    title: "Basic",
+    price: 49,
+    icon: "fa fa-plug fa-2x",
+    data: [
+      "Personal Use",
+      "3 projects",
+      "1 GB Disk",
+      "Custom Domain",
+      "24/7 Support",
+    ],
+  },
+  {
+    title: "Advanced",
+    price: 99,
+    icon: "fa fa-cog fa-2x",
+    data: [
+      "Personal Use",
+      "5 projects",
+      "5 GB Disk",
+      "Custom Domain",
+      "24/7 Support",
+    ],
+  },
+  {
+    title: "Professional",
+    price: 149,
+    icon: "fa fa-star fa-2x",
+    data: [
+      "Personal Use",
+      "20 Projects",
+      "20 GB Disk",
+      "Custom Domain",
+      "24/7 Support",
+    ],
+  },
+  {
+    title: "Ultimate",
+    price: 199,
+    icon: "fa fa-plus fa-2x",
+    data: [
+      "Multi Use",
+      "Unlimited Projects",
+      "99 GB Disk",
+      "Custom Domain",
+      "24/7 Support",
+    ],
+  },
+];
