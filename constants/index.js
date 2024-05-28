@@ -24,3 +24,10 @@ export const aboutContent = [
       "Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.",
   },
 ];
+
+export const ourSkillsContent = [
+  { skillTitle: "Photoshop & Illustrator", skillPercent: 80 },
+  { skillTitle: "WordPress", skillPercent: 50 },
+  { skillTitle: "Html & Css", skillPercent: 60 },
+  { skillTitle: "Javascript", skillPercent: 90 },
+];
