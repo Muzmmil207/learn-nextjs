@@ -19,7 +19,7 @@ export default function Home() {
         <h2 className="capitalize text-grayish text-2xl text-center font-semibold">
           our skills
         </h2>
-        <div className="grid gap-7 xl:grid-cols-4 md:grid-cols-2 grid-cols-1 mt-14">
+        <div className="grid gap-7 md:grid-cols-2 grid-cols-1 mt-14">
           {ourSkillsContent.map((skill) => (
             <div
               className="flex flex-col items-start gap-2"
