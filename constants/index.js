@@ -65,3 +65,34 @@ export const funFactsContent = [
   { amount: 55, icon: "fa fa-trophy fa-3x", text: "Winning Awards" },
   { amount: 1100, icon: "fa fa-coffee fa-3x", text: "Cups of coffee drinking" },
 ];
+
+export const ourTeamContent = [
+  {
+    name: "john doe",
+    icon: "fa fa-male",
+  },
+  {
+    name: "john doe",
+    icon: "fa fa-male",
+  },
+  {
+    name: "john doe",
+    icon: "fa fa-male",
+  },
+  {
+    name: "john doe",
+    icon: "fa fa-male",
+  },
+  {
+    name: "john doe",
+    icon: "fa fa-male",
+  },
+  {
+    name: "john doe",
+    icon: "fa fa-male",
+  },
+  {
+    name: "jane doe",
+    icon: "fa fa-female",
+  },
+];

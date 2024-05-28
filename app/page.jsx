@@ -6,6 +6,7 @@ import {
   Services,
   Navbar,
   FunFacts,
+  OurTeam,
 } from "@/components";
 import { ourSkillsContent } from "@/constants";
 
@@ -61,6 +62,7 @@ export default function Home() {
       </div>
       <Services />
       <FunFacts />
+      <OurTeam />
     </main>
   );
 }

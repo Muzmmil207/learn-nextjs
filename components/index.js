@@ -8,6 +8,7 @@ import Navbar from "./Navbar";
 import SectionTitle from "./SectionTitle";
 import AnimatedCounter from "./AnimatedCounter";
 import FunFacts from "./FunFacts";
+import OurTeam from "./OurTeam";
 
 export {
   Hero,
@@ -20,4 +21,5 @@ export {
   SectionTitle,
   FunFacts,
   AnimatedCounter,
+  OurTeam,
 };
