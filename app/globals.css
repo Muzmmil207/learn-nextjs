@@ -29,8 +29,11 @@
   background-position: center;
 }
 
-.custom-btn {
-  @apply py-6 px-9 rounded-lg capitalize text-lg hover:opacity-90 transition;
+.masthead2 {
+  background-image: url(/assets/img/counter-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .devider {

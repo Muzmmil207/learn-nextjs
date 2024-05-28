@@ -5,6 +5,7 @@ import {
   Hero,
   Services,
   Navbar,
+  FunFacts,
 } from "@/components";
 import { ourSkillsContent } from "@/constants";
 
@@ -59,6 +60,7 @@ export default function Home() {
         </section>
       </div>
       <Services />
+      <FunFacts />
     </main>
   );
 }

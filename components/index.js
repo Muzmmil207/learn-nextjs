@@ -6,6 +6,8 @@ import Services from "./Services";
 import Contact from "./Contact";
 import Navbar from "./Navbar";
 import SectionTitle from "./SectionTitle";
+import AnimatedCounter from "./AnimatedCounter";
+import FunFacts from "./FunFacts";
 
 export {
   Hero,
@@ -16,4 +18,6 @@ export {
   Contact,
   Navbar,
   SectionTitle,
+  FunFacts,
+  AnimatedCounter,
 };
