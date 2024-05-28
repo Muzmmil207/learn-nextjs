@@ -35,6 +35,29 @@ export default function Home() {
           ))}
         </div>
       </section>
+      <div className="bg-gray-100">
+        <section className="section-container">
+          <div className="py-14 flex flex-col justify-between items-start xl:flex-row xl:items-center">
+            <div>
+              <h2 className="text-grayish text-2xl font-bold">
+                Download Our Pdf
+              </h2>
+              <p className="text-sm mt-2 max-w-[800px] w-full">
+                Inspired by nature, follow technology, appreciate the classics.
+                You can build modern & professional websites with Unika. The
+                possibilities are just endless.
+              </p>
+            </div>
+            <div>
+              <a
+                href=""
+                className="inline-block bg-grayish py-2 px-8 text-white mt-6 hover:bg-slate-500 transition duration-500">
+                Download
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
   );
 }
