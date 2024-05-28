@@ -9,7 +9,7 @@ function Navbar() {
     setOpenMenu(!openMenu);
   };
   return (
-    <header className="bg-grayish py-4 fixed top-0 left-0 ring-0 w-full">
+    <header className="bg-grayish py-4 fixed top-0 left-0 ring-0 z-10 w-full">
       <nav className="header-container">
         <div className="flex justify-between items-center">
           <div className="">
