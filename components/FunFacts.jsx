@@ -1,5 +1,7 @@
 import { funFactsContent } from "@/constants";
-import { AnimatedCounter, SectionTitle } from ".";
+import SectionTitle from "@/components/SectionTitle";
+import AnimatedCounter from "@/components/AnimatedCounter";
+// import { AnimatedCounter, SectionTitle } from ".";
 
 function FunFacts() {
   return (

@@ -1,4 +1,4 @@
-import { SectionTitle } from ".";
+import SectionTitle from "@/components/SectionTitle";
 import { aboutContent } from "@/constants";
 
 function About() {

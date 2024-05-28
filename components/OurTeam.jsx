@@ -1,5 +1,5 @@
 import { ourTeamContent } from "@/constants";
-import { SectionTitle } from ".";
+import SectionTitle from "@/components/SectionTitle";
 
 function OurTeam() {
   return (
