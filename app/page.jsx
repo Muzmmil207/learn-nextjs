@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import SectionTitle from "@/components/SectionTitle";
 import Sidebar from "@/components/Sidebar";
 import { MessageCircleQuestion } from "lucide-react";
 import Link from "next/link";
@@ -8,20 +9,20 @@ export default function Home() {
     <main className="flex h-screen">
       <Sidebar />
 
-      <div className="bg-zinc-100 w-full xl:px-3">
+      <div className="bg-zinc-100 w-full px-2 md:px-3">
         <div className="max-w-[1500px] w-full mx-auto">
           <div className="">
-            <div className="xl:hidden">
+            <div className="md:hidden">
               <Header />
             </div>
-            <div className="justify-end py-6 items-center hidden xl:flex">
-              <Link href="#" className="flex">
+            <div className="justify-end py-6 items-center hidden md:flex">
+              <Link href="#" className="flex font-semibold text-sm">
                 <MessageCircleQuestion className="mr-2" />
                 <span>Help & Feedback</span>
               </Link>
             </div>
           </div>
-          <div className="card">sdfsfd</div>
+          <SectionTitle />
         </div>
       </div>
     </main>

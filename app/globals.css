@@ -76,5 +76,5 @@
 }
 
 .card {
-  @apply w-full bg-white rounded-md p-4 shadow-zinc-100;
+  @apply w-full bg-white rounded-xl p-4 shadow-zinc-50;
 }
