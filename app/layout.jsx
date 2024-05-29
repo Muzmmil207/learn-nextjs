@@ -1,5 +1,4 @@
 import "./globals.css";
-import "@/assets/font-awesome/css/font-awesome.min.css";
 
 export const metadata = {
   title: "Learn NEXT.JS",
