@@ -1,7 +1,8 @@
 import Header from "@/components/Header";
 import SectionTitle from "@/components/SectionTitle";
 import Sidebar from "@/components/Sidebar";
-import { MessageCircleQuestion } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Download, MessageCircleQuestion } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
@@ -23,6 +24,15 @@ export default function Home() {
             </div>
           </div>
           <SectionTitle />
+          <div className="flex flex-col gap-4 mt-10">
+            <div className="card flex items-center gap-2">
+              <p>Your calculated taxes for:</p>
+              <Button className="h-7">
+                <Download className="mr-2" />
+                <span>Download As PDF</span>
+              </Button>
+            </div>
+          </div>
         </div>
       </div>
     </main>
