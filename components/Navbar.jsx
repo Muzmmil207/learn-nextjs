@@ -14,7 +14,7 @@ function Navbar() {
             <link.icon className="mr-2" size={25} />
             <span>{link.name}</span>
             {link.new && (
-              <span className="text-white bg-purple-500 py-[1px] px-1 rounded-full ml-2 text-base">
+              <span className="text-white bg-purple-600 px-2 rounded-full ml-2 text-base">
                 NEW
               </span>
             )}
@@ -34,7 +34,7 @@ function Navbar() {
           className="flex items-center text-lg capitalize w-full rounded-md p-2 transition hover:bg-zinc-100">
           <UserRoundX className="mr-2" size={25} />
           <span>community</span>
-          <span className="text-white bg-purple-500 py-[1px] px-1 rounded-full ml-2 text-base">
+          <span className="text-white bg-purple-600 px-2 rounded-full ml-2 text-base">
             NEW
           </span>
         </Link>

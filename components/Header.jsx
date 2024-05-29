@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Header() {
   return (
-    <header className="flex items-center justify-between">
+    <header className="flex items-center justify-between bg-white">
       <div className="font-bold text-2xl md:text-4xl">deel.</div>
       <div className="flex items-center gap-6">
         <div className="bg-zinc-400 cursor-pointer p-[1px] rounded-full">
