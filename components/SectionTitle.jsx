@@ -1,20 +1,7 @@
-function SectionTitle({ title, description, textColor }) {
+function SectionTitle() {
   return (
-    <div className="flex justify-center items-center w-full mb-14">
-      <div className="flex flex-col items-center">
-        <h2
-          className={`${
-            textColor ? textColor : "text-grayish"
-          } text-2xl font-bold uppercase`}>
-          {title}
-        </h2>
-        <div className="devider"></div>
-        <p className={`${textColor ? textColor : "text-grayish"} `}>
-          {description}
-        </p>
-      </div>
-    </div>
-  );
+    <div>SectionTitle</div>
+  )
 }
 
-export default SectionTitle;
+export default SectionTitle
