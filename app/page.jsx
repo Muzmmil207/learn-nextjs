@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import SectionTitle from "@/components/SectionTitle";
 import Sidebar from "@/components/Sidebar";
 import { Button } from "@/components/ui/button";
+import { calculatedData } from "@/constants";
 import { Download, MessageCircleQuestion } from "lucide-react";
 import Link from "next/link";
 
@@ -24,7 +25,7 @@ export default function Home() {
             </div>
           </div>
           <SectionTitle />
-          <div className="flex flex-col gap-4 mt-10">
+          <div className="flex flex-col gap-4 mt-10 my-5">
             <div className="card flex items-center gap-2">
               <p>Your calculated taxes for:</p>
               <Button className="h-7">
@@ -32,6 +33,28 @@ export default function Home() {
                 <span>Download As PDF</span>
               </Button>
             </div>
+          </div>
+          <div className="my-5 flex flex-wrap justify-between gap-3">
+            {calculatedData.map((item) => (
+              <div className="card flex-1 min-w-[400px]">
+                <div className="flex justify-between items-center">
+                  <div>
+                    <p className="px-3 leading-normal bg-zinc-100 border border-zinc-400 w-fit rounded-full uppercase font-normal">
+                      {item.title}
+                    </p>
+                    <p className="font-semibold mt-2 text-lg">
+                      <span className="text-gray-400">$</span>
+                      {item.price}
+                    </p>
+                  </div>
+                  {item?.icon && (
+                    <div className="w-16 h-16 rounded-full flex justify-center items-center border border-zinc-100">
+                      <item.icon className="text-zinc-400" size={35} />
+                    </div>
+                  )}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>

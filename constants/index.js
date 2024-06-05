@@ -76,3 +76,20 @@ export const navLinks = [
     new: true,
   },
 ];
+
+export const calculatedData = [
+  {
+    title: "calculated net income",
+    price: "431.00",
+  },
+  {
+    title: "calculated  income",
+    price: "0.00",
+    icon: Calculator,
+  },
+  {
+    title: "calculated expenses",
+    price: "431.00",
+    icon: Newspaper,
+  },
+];
